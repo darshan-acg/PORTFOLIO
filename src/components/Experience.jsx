@@ -47,19 +47,19 @@ export default function Experience() {
           <div className="timeline-card glass-card">
             <h3>Education</h3>
             <div className="timeline-item">
-              <h4>B.E. – Mechanical & Smart Manufacturing</h4>
+              <h4>Bachelor of Engg</h4>
               <span>07/2023 – 05/2025 | Ramanagara | CGPA: 7.1</span>
             </div>
-
+{/* 
             <div className="timeline-item">
               <h4>Diploma – Mechanical</h4>
               <span>Government Polytechnic College | 07/2018 – 04/2021 | Ramanagara | 66.4%</span>
-            </div>
+            </div> */}
 
-            <div className="timeline-item">
+            {/* <div className="timeline-item">
               <h4>SSLC</h4>
               <span>Adarsha High School | 2017 – 2018 | 59.06%</span>
-            </div>
+            </div> */}
           </div>
 
           <div className="timeline-card full-width glass-card">
