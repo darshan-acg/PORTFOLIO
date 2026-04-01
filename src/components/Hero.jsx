@@ -67,7 +67,7 @@ export default function Hero() {
             </a>
           </div>
 
-          <div className="hero-stats">
+          {/* <div className="hero-stats">
             <div className="hero-stat-card glass-mini">
               <h3>6+</h3>
               <p>Projects Built</p>
@@ -80,7 +80,7 @@ export default function Hero() {
               <h3>React + AI</h3>
               <p>Focused Stack</p>
             </div>
-          </div>
+          </div> */}
 
           <div className="hero-mini-cards">
             <div className="mini-card glass-mini">
