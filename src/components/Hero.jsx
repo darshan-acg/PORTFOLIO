@@ -73,7 +73,7 @@ export default function Hero() {
               <p>Projects Built</p>
             </div>
             <div className="hero-stat-card glass-mini">
-              <h3>4 Months</h3>
+              <h3>6 Months</h3>
               <p>ML Experience</p>
             </div>
             <div className="hero-stat-card glass-mini">
@@ -88,7 +88,7 @@ export default function Hero() {
               <p>Python Full Stack Training</p>
             </div>
             <div className="mini-card glass-mini">
-              <h3>4 Months</h3>
+              <h3>6 Months</h3>
               <p>Trainee ML Experience</p>
             </div>
             <div className="mini-card glass-mini">
