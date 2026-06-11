@@ -159,10 +159,19 @@ textarea {
 }
 
 .nav-links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
   color: #365279;
   font-weight: 600;
   position: relative;
   transition: 0.25s ease;
+}
+
+.nav-icon {
+  display: none;
+  font-size: 17px;
+  flex: 0 0 auto;
 }
 
 .nav-links a:hover,
@@ -184,16 +193,31 @@ textarea {
 .menu-toggle {
   display: none;
   border: none;
-  background: transparent;
+  width: 42px;
+  height: 42px;
+  border-radius: 12px;
+  background: rgba(237, 246, 255, 0.95);
   color: var(--text);
-  font-size: 28px;
+  font-size: 24px;
   cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(206, 223, 244, 0.95);
+  transition: 0.25s ease;
+}
+
+.menu-toggle:hover,
+.menu-toggle.menu-open {
+  color: var(--primary);
+  border-color: rgba(47, 128, 237, 0.26);
+  box-shadow: 0 10px 22px rgba(47, 128, 237, 0.12);
 }
 
 .resume-download-btn {
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  gap: 8px;
   padding: 11px 18px;
   border-radius: 12px;
   background: linear-gradient(135deg, var(--primary), var(--secondary));
@@ -203,11 +227,15 @@ textarea {
   transition: 0.25s ease;
 }
 
+.resume-download-btn svg {
+  display: none;
+}
+
 .resume-download-btn:hover {
   transform: translateY(-2px);
 }
 
-.mobile-resume-btn {
+.nav-links .mobile-resume-btn {
   display: none;
 }
 
@@ -1001,7 +1029,7 @@ textarea {
 
 @media (max-width: 900px) {
   .menu-toggle {
-    display: block;
+    display: inline-flex;
   }
 
   .desktop-resume-btn {
@@ -1011,6 +1039,11 @@ textarea {
   .mobile-resume-btn {
     display: inline-flex;
     margin-top: 8px;
+  }
+
+  .mobile-resume-btn svg,
+  .nav-icon {
+    display: inline-block;
   }
 
   .nav-links {
@@ -1027,6 +1060,10 @@ textarea {
     flex-direction: column;
     align-items: flex-start;
     gap: 16px;
+  }
+
+  .nav-links a {
+    width: 100%;
   }
 
   .nav-links.show-menu {

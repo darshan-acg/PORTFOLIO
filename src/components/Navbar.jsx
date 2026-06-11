@@ -1,12 +1,23 @@
 import { useEffect, useState } from "react";
+import {
+  FiBriefcase,
+  FiDownload,
+  FiFolder,
+  FiHome,
+  FiMail,
+  FiMenu,
+  FiUser,
+  FiX,
+} from "react-icons/fi";
+import { LuSparkles } from "react-icons/lu";
 
 const navItems = [
-  { id: "home", label: "Home" },
-  { id: "about", label: "About" },
-  { id: "skills", label: "Skills" },
-  { id: "experience", label: "Experience" },
-  { id: "projects", label: "Projects" },
-  { id: "contact", label: "Contact" }
+  { id: "home", label: "Home", icon: FiHome },
+  { id: "about", label: "About", icon: FiUser },
+  { id: "skills", label: "Skills", icon: LuSparkles },
+  { id: "experience", label: "Experience", icon: FiBriefcase },
+  { id: "projects", label: "Projects", icon: FiFolder },
+  { id: "contact", label: "Contact", icon: FiMail }
 ];
 
 export default function Navbar() {
@@ -54,31 +65,36 @@ export default function Navbar() {
         <button
           className={`menu-toggle ${menuOpen ? "menu-open" : ""}`}
           onClick={() => setMenuOpen((prev) => !prev)}
-          aria-label="Toggle menu"
+          aria-label={menuOpen ? "Close menu" : "Open menu"}
+          aria-expanded={menuOpen}
           type="button"
         >
-          <span></span>
-          <span></span>
-          <span></span>
+          {menuOpen ? <FiX /> : <FiMenu />}
         </button>
 
         <nav className={`nav-links ${menuOpen ? "show-menu" : ""}`}>
-          {navItems.map((item) => (
+          {navItems.map((item) => {
+            const Icon = item.icon;
+
+            return (
             <a
               key={item.id}
               href={`#${item.id}`}
               onClick={handleNavClick}
               className={activeSection === item.id ? "active-nav" : ""}
             >
+              <Icon className="nav-icon" aria-hidden="true" />
               {item.label}
             </a>
-          ))}
+            );
+          })}
 
           <a
             href="/resume.pdf"
             download
             className="resume-download-btn mobile-resume-btn"
           >
+            <FiDownload aria-hidden="true" />
             Download Resume
           </a>
         </nav>
@@ -88,6 +104,7 @@ export default function Navbar() {
           download
           className="resume-download-btn desktop-resume-btn"
         >
+          <FiDownload aria-hidden="true" />
           Download Resume
         </a>
       </div>
