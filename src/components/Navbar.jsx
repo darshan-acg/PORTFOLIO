@@ -48,7 +48,7 @@ export default function Navbar() {
     <header className={`navbar ${scrolled ? "navbar-scrolled" : ""}`}>
       <div className="container nav-container">
         <a href="#home" className="logo">
-          Darshan<span>.</span>
+          Darshan A.C
         </a>
 
         <button
