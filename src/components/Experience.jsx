@@ -127,14 +127,16 @@ export default function Experience() {
           <div className="timeline-card glass-card">
             <h3>Professional Experience</h3>
             <div className="timeline-item">
-              <h4>Trainee Machine Learning Developer</h4>
-              <span>Spherenex Innovation Labs | Dec 2025 – Present | Bengaluru</span>
+              <h4>Machine Learning Developer</h4>
+              <span>Spherenex Innovation Labs | Dec 2025 - Present | Bengaluru</span>
               <ul>
-                <li>Worked on machine learning and computer vision-based applications</li>
-                <li>Performed data preprocessing using Pandas and NumPy</li>
-                <li>Built and tested models using PyTorch</li>
-                <li>Used OpenCV and YOLO for object detection tasks</li>
-                <li>Gained real-world experience in AI and ML workflows</li>
+                <li>Developed 6+ Machine Learning and Computer Vision applications using Python, OpenCV, PyTorch, and YOLO</li>
+                <li>Processed and cleaned 3,000+ images using NumPy and Pandas for model training</li>
+                <li>Built 4 object detection models for real-time image analysis</li>
+                <li>Improved the image preprocessing pipeline, reducing processing time by 20%</li>
+                <li>Collaborated with a team of 3 developers to build AI-based applications</li>
+                <li>Tested and optimized multiple Computer Vision models before deployment</li>
+                <li>Converted a YOLOv8 model to TensorFlow Lite 320 for a React Native object detection app</li>
               </ul>
             </div>
           </div>
@@ -142,8 +144,16 @@ export default function Experience() {
           <div className="timeline-card glass-card">
             <h3>Education</h3>
             <div className="timeline-item">
-              <h4>Bachelor of Engg</h4>
-              <span>07/2023 – 05/2025 | Ramanagara | CGPA: 7.1</span>
+              <h4>Bachelor of Engineering - Mechanical & Smart Manufacturing Engineering</h4>
+              <span>Government Engineering College | Mar 2023 - May 2025 | Ramanagara | CGPA: 7.1</span>
+            </div>
+            <div className="timeline-item">
+              <h4>Diploma - Mechanical Engineering</h4>
+              <span>Government Polytechnic College | Jul 2018 - Apr 2021 | Ramanagara | CGPA: 6.4</span>
+            </div>
+            <div className="timeline-item">
+              <h4>SSLC</h4>
+              <span>Adarsha High School | Apr 2017 - Jul 2018 | Malavalli | 60%</span>
             </div>
           </div>
 
@@ -151,11 +161,11 @@ export default function Experience() {
             <h3>Courses & Certifications</h3>
 
             <div className="timeline-item">
-              <h4>Python Full Stack Development – QSpiders</h4>
-              <span>05/2025 – 11/2025 | Bengaluru</span>
+              <h4>Python Full Stack Development - QSpiders</h4>
+              <span>05/2025 - 11/2025 | Bengaluru</span>
               <p>
                 Trained in Python, Oracle SQL, HTML, CSS, JavaScript, React.js,
-                React Native, and Django with hands-on project experience.
+                Django, and hands-on real-time project development.
               </p>
             </div>
 

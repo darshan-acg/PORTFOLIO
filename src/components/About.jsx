@@ -27,38 +27,40 @@ export default function About() {
         <div className="about-grid">
           <div className="about-card glass-card">
             <p>
-              Aspiring Software Developer with a strong foundation in Python,
-              Full Stack Development, and Machine Learning. Completed 6-month
-              Python Full Stack training and gained 6 months of experience as a
-              Trainee Machine Learning Developer.
+              Software Developer with 7 months of Machine Learning development
+              experience and Python full-stack training. Skilled in Python,
+              Django, React.js, Machine Learning, Computer Vision, OpenCV,
+              PyTorch, and YOLO.
             </p>
             <p>
-              Skilled in building web and mobile applications using React and
-              React Native, along with backend frameworks like Flask and Django.
-              Hands-on experience in computer vision and AI-based applications.
+              I build AI-powered, web, and mobile applications using modern
+              development frameworks. My work includes computer vision models,
+              real-time object detection, face recognition, React.js interfaces,
+              and React Native mobile AI apps.
             </p>
             <p>
-              Passionate about developing scalable and real-world software
-              solutions with premium UI, practical features, and clean code.
+              Seeking to leverage strong problem-solving and rapid-learning
+              abilities to deliver scalable, high-impact software solutions as
+              part of a growth-focused engineering team.
             </p>
           </div>
 
           <div className="about-highlights">
             <div className="highlight-box glass-card">
               <h3>Frontend</h3>
-              <p>React.js, JavaScript, HTML, CSS, Responsive UI</p>
+              <p>HTML, CSS, JavaScript, React.js, Responsive UI</p>
             </div>
             <div className="highlight-box glass-card">
               <h3>Backend</h3>
-              <p>Flask, Django, REST API basics</p>
+              <p>Django, Flask, REST APIs</p>
             </div>
             <div className="highlight-box glass-card">
               <h3>AI / ML</h3>
-              <p>PyTorch, NumPy, Pandas, OpenCV, YOLO</p>
+              <p>PyTorch, NumPy, Pandas, OpenCV, Ultralytics YOLO, TensorFlow Lite</p>
             </div>
             <div className="highlight-box glass-card">
               <h3>Database</h3>
-              <p>Oracle SQL, CRUD, Joins, Subqueries, Normalization</p>
+              <p>Oracle SQL, Firebase, CRUD, Joins, Subqueries</p>
             </div>
           </div>
         </div>

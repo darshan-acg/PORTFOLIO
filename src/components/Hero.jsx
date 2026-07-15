@@ -6,6 +6,7 @@ const roles = [
   "Full Stack Developer",
   "Machine Learning Enthusiast",
   "React.js Developer",
+  "React Native Developer",
   "Computer Vision Developer"
 ];
 
@@ -40,10 +41,10 @@ export default function Hero() {
     <section id="home" className="hero-section reveal active">
       <div className="container hero-container">
         <div className="hero-left glass-card hero-animate-left">
-          <p className="hero-badge">Aspiring Software Developer</p>
+          <p className="hero-badge">Developer - Machine Learning & Full-Stack</p>
 
           <h1>
-            Hi, I’m <span>Darshan A.C</span>
+            Hi, I'm <span>Darshan A.C</span>
           </h1>
 
           <h2 className="typing-line">
@@ -54,8 +55,9 @@ export default function Hero() {
           <p className="hero-text">
             I build modern web applications, machine learning projects, and
             computer vision solutions using React.js, Python, Flask, Django,
-            OpenCV, and PyTorch. I focus on creating practical and real-world
-            software with clean design and strong functionality.
+            OpenCV, PyTorch, YOLO, React Native, and TensorFlow Lite. I focus on
+            scalable, high-impact software with clean design and practical
+            functionality.
           </p>
 
           <div className="hero-actions">
@@ -88,12 +90,12 @@ export default function Hero() {
               <p>Python Full Stack Training</p>
             </div>
             <div className="mini-card glass-mini">
-              <h3>6  Months</h3>
+              <h3>7 Months</h3>
               <p>Trainee ML Experience</p>
             </div>
             <div className="mini-card glass-mini">
-              <h3>React + Python</h3>
-              <p>Web and AI Projects</p>
+              <h3>6+ Projects</h3>
+              <p>Web, AI and Mobile Apps</p>
             </div>
           </div>
         </div>
