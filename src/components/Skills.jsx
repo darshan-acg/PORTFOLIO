@@ -3,15 +3,15 @@ import { useEffect, useRef, useState } from "react";
 const skillsData = [
   {
     title: "Programming & Core Skills",
-    items: ["Python", "JavaScript", "OOP", "Problem Solving"]
+    items: ["Python", "OOP", "Data Structures", "Exception Handling"]
   },
   {
     title: "Machine Learning",
-    items: ["PyTorch", "NumPy", "Pandas", "Data Preprocessing", "Model Testing"]
+    items: ["NumPy", "Pandas", "PyTorch", "Data Preprocessing", "Feature Handling"]
   },
   {
     title: "Computer Vision",
-    items: ["OpenCV", "Ultralytics YOLO", "YOLOv8", "Face Recognition", "Image Processing"]
+    items: ["OpenCV", "YOLO", "Face Detection", "Image Processing"]
   },
   {
     title: "Web Development",
@@ -19,23 +19,19 @@ const skillsData = [
   },
   {
     title: "Frontend",
-    items: ["React.js", "Components", "State Management", "Responsive UI"]
+    items: ["React.js", "Hooks", "Components", "Router"]
   },
   {
     title: "Mobile Development",
-    items: ["React Native", "TensorFlow Lite", "TFLite 320", "On-device AI"]
+    items: ["React Native"]
   },
   {
     title: "Backend",
-    items: ["Django", "Flask", "REST APIs"]
+    items: ["Flask", "Django", "REST APIs"]
   },
   {
     title: "Database",
-    items: ["Oracle SQL", "Firebase", "CRUD", "Joins", "Subqueries"]
-  },
-  {
-    title: "Tools",
-    items: ["Git", "GitHub"]
+    items: ["Oracle SQL", "CRUD", "Joins", "Subqueries", "Normalization"]
   }
 ];
 

@@ -24,44 +24,30 @@ import boxTouchGame1 from "../assets/projects/box-touch-game-1.png";
 import boxTouchGame2 from "../assets/projects/box-touch-game-2.png";
 import boxTouchGame3 from "../assets/projects/box-touch-game-3.png";
 
-import objectDetection1 from "../assets/projects/object1.jpeg";
-import objectDetection2 from "../assets/projects/object2.jpeg";
-import objectDetection3 from "../assets/projects/object3.jpeg";
-import objectDetection4 from "../assets/projects/object4.jpeg";
-
 const projectList = [
-  {
-    title: "React Native YOLOv8 Object Detection App",
-    images: [objectDetection1, objectDetection2, objectDetection3, objectDetection4],
-    shortDescription:
-      "Built a React Native mobile app for real-time object detection using a YOLOv8 model converted to TensorFlow Lite 320.",
-    fullDescription:
-      "This project is a mobile object detection application developed in React Native. I converted a YOLOv8 model into TensorFlow Lite format with 320 input size and integrated it into the app for on-device detection. It demonstrates model conversion, mobile AI integration, camera-based object detection, and practical computer vision deployment on mobile devices.",
-    tech: ["React Native", "TensorFlow Lite", "YOLOv8", "Computer Vision"]
-  },
   {
     title: "AI Food Recommendation System",
     images: [foodAi1, foodAi2, foodAi3],
     shortDescription:
-      "Developed an AI food recommendation system using Python and Machine Learning with 90% recommendation accuracy during testing.",
+      "Developed a machine learning-based recommendation system that suggests food items based on user preferences and behavior.",
     fullDescription:
-      "This project focuses on building a personalized recommendation system using Python and Machine Learning. It recommends food based on 5+ user preference parameters and achieved 90% recommendation accuracy during testing. The project demonstrates recommendation flow, dashboard presentation, and practical AI-based decision support for users.",
+      "This project focuses on building a personalized recommendation system using machine learning concepts. It analyzes user preferences, behavior patterns, and food interests to suggest suitable food items. The project demonstrates recommendation flow, dashboard presentation, and practical AI-based decision support for users.",
     tech: ["Python", "Machine Learning"]
   },
   {
     title: "Face Recognition Security System",
     images: [faceSecurity1, faceSecurity2, faceSecurity3],
     shortDescription:
-      "Built a real-time face recognition system using Python and OpenCV to identify 20+ registered users.",
+      "Built a face recognition system using Python and OpenCV to classify known and unknown persons with an alert trigger mechanism.",
     fullDescription:
-      "This project is a computer vision-based security system that identifies faces in real time. It can recognize 20+ registered users and achieved 95% recognition accuracy using OpenCV. It demonstrates OpenCV integration, security automation logic, and practical use of face recognition workflows.",
+      "This project is a computer vision-based security system that identifies faces in real time. It can distinguish known and unknown persons and trigger alerts based on recognition results. It demonstrates OpenCV integration, security automation logic, and practical use of face recognition workflows.",
     tech: ["Python", "OpenCV", "Face Recognition"]
   },
   {
     title: "Hand Gesture Controlled System",
     images: [gestureControl1, gestureControl2, gestureControl3],
     shortDescription:
-      "Designed a real-time hand gesture recognition system using OpenCV for touch-free system command control.",
+      "Implemented a computer vision-based hand gesture control system using OpenCV for real-time hand tracking and command mapping.",
     fullDescription:
       "This project uses real-time video input to identify hand gestures and map them to system commands. It demonstrates hand landmark processing, gesture recognition, and smart interaction. It is useful for touchless control applications and AI-based human-computer interaction systems.",
     tech: ["Python", "OpenCV", "Computer Vision"]
@@ -70,16 +56,16 @@ const projectList = [
     title: "Employee Management System",
     images: [employeeManagement1, employeeManagement2, employeeManagement3],
     shortDescription:
-      "Developed a CRUD-based React.js employee management system supporting 100+ employee records.",
+      "Developed a CRUD-based web application using React.js with responsive UI, state handling, and form-based interactions.",
     fullDescription:
-      "This project is a React.js-based employee management application supporting add, update, delete, and display operations for 100+ employee records. It reduces manual record management through automated CRUD operations and demonstrates practical state management, reusable components, form handling, responsive design, and business-style dashboard layout.",
+      "This project is a React.js-based employee management application supporting add, update, delete, and display operations. It demonstrates practical state management, reusable components, form handling, responsive design, and business-style dashboard layout.",
     tech: ["React.js", "JavaScript", "CRUD"]
   },
   {
     title: "Online Shopping Website",
     images: [shoppingWebsite1, shoppingWebsite2, shoppingWebsite3],
     shortDescription:
-      "Built a responsive React.js e-commerce platform with product filtering, shopping cart, and dynamic state management.",
+      "Created an e-commerce style application with cart functionality, product filtering, and dynamic user interactions.",
     fullDescription:
       "This project is a modern shopping website interface built using React.js. It includes product listing, filtering, cart logic, and dynamic interaction design. It highlights reusable UI structure, responsive layout, and a premium ecommerce-style user experience.",
     tech: ["React.js", "Frontend", "UI Design"]
