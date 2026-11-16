@@ -29,7 +29,7 @@ export default function About() {
             <p>
               Aspiring Software Developer with a strong foundation in Python,
               Full Stack Development, and Machine Learning. Completed 6-month
-              Python Full Stack training and gained 4 months of experience as a
+              Python Full Stack training and gained 6 months of experience as a
               Trainee Machine Learning Developer.
             </p>
             <p>

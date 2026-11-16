@@ -102,7 +102,7 @@ export default function Contact() {
             <div className="contact-quick-actions">
               <a href="mailto:darshan.acg2003@gmail.com" className="secondary-btn">
                 Email Me
-              </a>
+              </a>      
               <a href="/resume.pdf" download className="primary-btn">
                 Download Resume
               </a>
